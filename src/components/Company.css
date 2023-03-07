@@ -1,0 +1,23 @@
+.company {
+  display: flex;
+  justify-content: center;
+  /* background: yellow; */
+  margin: 75px 0px;
+}
+
+.companyBox {
+  max-width: 1500px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+}
+.eachCompanyBox {
+  display: flex;
+  justify-content: center;
+}
+.eachCompanyBox > img {
+  width: 150px;
+}

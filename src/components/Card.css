@@ -1,0 +1,62 @@
+.card {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+}
+.cardin {
+  max-width: 1500px;
+  width: 80vw;
+  min-width: 300px;
+}
+
+.cardin > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cardRev {
+  flex-direction: row-reverse;
+}
+.cardImage > img {
+  min-width: 250px;
+  max-width: 600px;
+  width: 50vw;
+  position: relative;
+  top: 50px;
+}
+.cardText {
+  width: 30vw;
+  min-width: 250px;
+  max-width: 600px;
+}
+.head1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.head2 {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+.title {
+  margin: 20px 0px 40px 0px;
+  font-size: 1rem;
+}
+.points {
+  margin-top: 10px;
+}
+.point {
+  display: flex;
+  gap: 10px;
+}
+@media (width<1000px) {
+  .cardin > div {
+    flex-direction: column;
+  }
+  .cardText {
+    width: 60vw;
+  }
+  .cardImage > img {
+    width: 70vw;
+  }
+}

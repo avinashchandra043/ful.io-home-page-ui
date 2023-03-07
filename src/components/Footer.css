@@ -1,0 +1,66 @@
+.footer {
+  margin-top: 50px;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  font-size: 1.2em;
+}
+.footer > div {
+  width: 80vw;
+  max-width: 1500px;
+}
+.headIcon {
+  width: 100px;
+  height: 50px;
+  align-items: center;
+  fill: white;
+  display: inline-block;
+  cursor: pointer;
+}
+.cls-3,
+.cls-2 {
+  fill: red;
+}
+.f1 {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+.fup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 100px 0px;
+}
+.f1,
+.f2 {
+  line-height: 30px;
+  max-width: 350px;
+  cursor: pointer;
+}
+.f2 > div:hover {
+  color: rgb(54, 87, 238);
+}
+.f2:last-child > div:last-child {
+  max-width: 150px;
+}
+.fM {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.fuI {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+.fuI > div > svg:hover {
+  fill: rgb(0, 136, 255);
+  height: 30px;
+  width: 30px;
+}

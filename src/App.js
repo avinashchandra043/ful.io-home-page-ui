@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import CardHandler from "./components/CardHandler";
+import Def from "./components/Def";
+import Waves from "./components/Waves";
+import Feature from "./components/Feature";
+import Company from "./components/Company";
+import TestimonialHandler from "./components/TestimonialHandler";
+import Footer from "./components/Footer";
+import Bubble from "./components/Bubble";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Waves />
+      <Bubble />
+      <Header />
+      <Def />
+      <Feature />
+      <CardHandler />
+      <Company />
+      <TestimonialHandler />
+      <Footer />
     </div>
   );
 }

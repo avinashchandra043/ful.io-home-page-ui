@@ -1,0 +1,63 @@
+.tm {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.tm > div {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  box-shadow: 10px 11px 15px 1px rgba(0, 0, 0, 0.386);
+}
+.tmHead {
+  font-size: 2em;
+  font-weight: 700;
+  margin: 70px 0px;
+  text-align: center;
+}
+.tmLists {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0px 50px 100px 50px;
+}
+.tmList {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.tmListUp {
+  display: flex;
+  gap: 20px;
+}
+.tmImg > img {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.tmName {
+  font-weight: 700;
+  font-size: 1.3em;
+}
+.tmProf {
+  font-size: 1.3em;
+}
+.tmInfo {
+  width: 300px;
+  margin-left: 70px;
+}
+@media (width<600px) {
+  .tmList {
+    width: 300px;
+  }
+  .tmInfo {
+    width: 200px;
+  }
+  .tmName,
+  .tmProf {
+    font-size: 1em;
+  }
+}
